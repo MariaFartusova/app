@@ -17,7 +17,6 @@ require 'test_helper'
   it { should respond_to(:email) }
   it { should respond_to(:password_digest) }
     it { should respond_to(:password) }
-  it { should respond_to(:password_confirmation) }
    
     it { should_not be_valid }
     describe "when email format is invalid" do
